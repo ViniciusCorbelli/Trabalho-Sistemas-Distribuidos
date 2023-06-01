@@ -2,7 +2,7 @@ package com.ufjf;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.example.TemperatureConverter")
+@WebService(endpointInterface = "com.ufjf.TemperatureConverter")
 public class TemperatureConverterImpl implements TemperatureConverter {
     @Override
     public double celsiusToKelvin(double celsius) {
